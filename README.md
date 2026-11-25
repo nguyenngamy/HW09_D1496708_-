@@ -1,4 +1,3 @@
-readme_content = """# HW09 | Python 資料型別上機實作：兩場活動報名整理器
 
 ## 個人問題回答
 
@@ -14,7 +13,4 @@ readme_content = """# HW09 | Python 資料型別上機實作：兩場活動報�
 - **人工核對與修改**：我已在 Google Colab 親自執行三組測試，核對去重、排序、切片 `[:2]` 與金額計算結果是否正確，並用自己的話修改回答內容。
 """
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content.strip() + "\n")
 
-print("已產生 README.md")
